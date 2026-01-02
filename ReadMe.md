@@ -204,6 +204,7 @@ If we keep the button pressed for at least 30 seconds, we enter [Access point](#
 
 #### Set Value
 
+
 <img title="" src="tools/IMG_P5.JPG" alt="" width="490" data-align="center">
 
 Let's see the meaning of the available fields:
@@ -247,6 +248,7 @@ This parameter defines the sound volume. The range is 0 to 200. Keep in mind tha
 #### Access point
 
 After holding the button for at least 30 seconds, the following screen will appear on the display:
+
 
 <img title="" src="tools/IMG_P6.JPG" alt="" width="490" data-align="center">
 

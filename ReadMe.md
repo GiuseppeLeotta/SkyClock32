@@ -22,8 +22,11 @@ Bring to your table an object that tells the story of time and the sky. **SkyClo
 Here is a video showing what happens at noon; you will hear the bells ringing :smile:. Click on the image.
 
 <p align="center">
-  <a href="tools/SkyClockVideo.mp4" title="click to watch the video">
-    <img src="tools/SkyClockVideo.jpg" alt="" width="65%"  style="border: 1px solid #ddd; border-radius: 8px;" />
+  <a href="https://vimeo.com/1151204204" target="_blank" rel="noopener noreferrer">
+    <img src="tools/SkyClockVideo.jpg"
+         alt="SkyClockVideo — click to watch"
+         width="65%"
+         style="border:1px solid #ddd; border-radius:8px;" />
   </a>
 </p>
 

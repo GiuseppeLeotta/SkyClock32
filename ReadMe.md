@@ -19,6 +19,14 @@ Bring to your table an object that tells the story of time and the sky. **SkyClo
   <img src="tools/img_g.jpg" width="49%"  />
 </p>
 
+Here is a video showing what happens at noon; you will hear the bells ringing :smile:. Click on the image.
+
+<p align="center">
+  <a href="tools/SkyClockVideo.mp4" title="click to watch the video">
+    <img src="tools/SkyClockVideo.jpg" alt="" width="65%"  style="border: 1px solid #ddd; border-radius: 8px;" />
+  </a>
+</p>
+
 ## Features
 
 - **Main dial**: large analog-digital display with overlay readings of temperature, humidity and atmospheric pressure values.

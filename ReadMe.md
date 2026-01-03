@@ -4,7 +4,9 @@
 
 A stylish desk clock that shows the time with an analog-digital dial, monitors temperature, humidity and atmospheric pressure, records 24-hour trends with intuitive charts, and indicates sunrise and sunset times as well as the position of the Moon and the main planets. All accompanied by a gentle cuckoo every hour and bells at noon.
 
-<img title="" src="tools/img_a.jpg" alt="" width="510" data-align="center">
+<p align="center">
+    <img src="tools/img_a.jpg" alt="" width="80%">
+</p>
 
 Bring to your table an object that tells the story of time and the sky. **SkyClock** combines a large, readable display with precision microclimate sensors and local astronomical calculations: sunrise/sunset times, the position of the Moon and the planets Mercury, Venus, Mars, Jupiter and Saturn. It records temperature, humidity and pressure trends over the last 24 hours and displays them with intuitive charts. A sweet cuckoo every hour; bells at noon. Set your preferred alarm and customize every aspect to your needs.
 
@@ -126,11 +128,15 @@ Next you need to install the driver for uploading the FileSystem. Again I recomm
 
 The code requires the [ESP8266Audio](https://github.com/earlephilhower/ESP8266Audio) library created by [earlephilhower (Earle F. Philhower, III)](https://github.com/earlephilhower). To install it go to 'LIBRARY MANAGER', search for ESP8266Audio and proceed with the installation.
 
-<img title="" src="tools/IMG_C02.JPG" alt="" width="543" data-align="center">
+<p align="center">
+  <img src="tools/IMG_C02.JPG" alt="" width="80%">
+</p>
 
 Now we can proceed with compilation. Load the SkyClock32.ino file from the [SkyClock32](SkyClock32/) folder, select the board "ESP32 Dev Module" and Partition Scheme: "No OTA (2MB APP/2MB SPIFFS)".
 
-<img title="" src="tools/IMG_C01.JPG" alt="" width="490" data-align="center">
+<p align="center">
+  <img src="tools/IMG_C01.JPG" alt="" width="80%">
+</p>
 
 At this point we can upload the data to the ESP32 filesystem (on Windows press [Ctrl] + [Shift] + [P]). All files present in the [data](SkyClock32/data) folder will be copied to the ESP32. After this step, compile and upload the program. Your **SkyClock** is ready to use!
 
@@ -160,39 +166,57 @@ Once the PCB and the enclosure have been made and all components soldered, we ca
 
 The first component to mount is the speaker. The operation is not particularly difficult, but pay attention to the screws near the edges of the enclosure.
 
-<img title="" src="tools/IMG01.JPG" alt="" width="261" data-align="center">
+<p align="center">
+    <img title="" src="tools/IMG01.JPG" alt="" width="80%" >
+</p>
 
 Next mount the photoresistor. First cut the component leads to the right height (about halfway) so they can be inserted into the appropriate holes. If you prefer, you can simply solder them directly. A bit of adhesive tape will give stability to the connection.
 
-<img title="" src="tools/IMG02.JPG" alt="" width="261" data-align="center">
+<p align="center">
+  <img  src="tools/IMG02.JPG" alt="" width="80%">
+</p>
 
 Proceed with mounting the button, having previously soldered the electrical contacts. Pay attention during screwing, the nut is close to the speaker. Do not overtighten.
 
-<img title="" src="tools/IMG03.JPG" alt="" width="374" data-align="center">
+<p align="center">
+    <img  src="tools/IMG03.JPG" alt="" width="80%">
+</p>
 
 Now move on to the most delicate part of the assembly. Use the 30 mm screws and insert the display so that the connectors face the speaker. Screw everything without over-tightening, leaving a small amount of play.
 
-<img title="" src="tools/IMG04.JPG" alt="" width="382" data-align="center">
+<p align="center">
+    <img  src="tools/IMG04.JPG" alt="" width="80%">
+</p>
 
 Insert 4 nuts on the 30 mm screws, positioning them so they are perfectly flat and at the correct height to allow the display connectors to latch onto the PCB.
 
-<img title="" src="tools/IMG05.JPG" alt="" width="395" data-align="center">
+<p align="center">
+    <img  src="tools/IMG05.JPG" alt="" width="80%" >
+</p>
 
 At this point insert the PCB and attach the display. Check that the ESP32 mini-USB connector is perfectly aligned with the side hole of the enclosure so that the USB cable can be easily inserted. Secure everything with 4 more nuts.
 
-<img title="" src="tools/IMG06.JPG" alt="" width="464" data-align="center">
+<p align="center">
+  <img src="tools/IMG06.JPG" alt="" width="80%">
+</p>
 
 Proceed to mount the SHT30 sensor in the enclosure lid. The grooves on the surface guide the insertion of the SHT30 into a single correct position. Fasten everything with a 10 mm screw.
 
-<img title="" src="tools/IMG07.JPG" alt="" width="261" data-align="center">
+<p align="center">
+    <img src="tools/IMG07.JPG" alt="" width="80%">
+</p>
 
 If you want more accurate readings, you can insert a strip of expanded polystyrene to isolate the SHT30 sensor from the internal heat of the enclosure, making measurements more accurate.
 
-<img title="" src="tools/IMG08.JPG" alt="" width="261" data-align="center">
+<p align="center">
+  <img src="tools/IMG08.JPG" alt="" width="80%">
+</p>
 
 Complete the assembly by making the final connections, paying **close attention to component polarities** to avoid damage.
 
-<img title="" src="tools/IMG09.JPG" alt="" width="490" data-align="center">
+<p align="center">
+    <img src="tools/IMG09.JPG" alt="" width="80%">
+</p>
 
 ### Configuration
 
@@ -204,8 +228,9 @@ If we keep the button pressed for at least 30 seconds, we enter [Access point](#
 
 #### Set Value
 
-
-<img title="" src="tools/IMG_P5.JPG" alt="" width="490" data-align="center">
+<p align="center">
+  <img src="tools/IMG_P5.JPG" alt="" width="80%" >
+</p>
 
 Let's see the meaning of the available fields:
 
@@ -249,8 +274,9 @@ This parameter defines the sound volume. The range is 0 to 200. Keep in mind tha
 
 After holding the button for at least 30 seconds, the following screen will appear on the display:
 
-
-<img title="" src="tools/IMG_P6.JPG" alt="" width="490" data-align="center">
+<p align="center">
+  <img src="tools/IMG_P6.JPG" alt="" width="80%">
+</p>
 
 Connect with the WiFi of your tablet or smartphone to the network with SSID **SkyClock** (no password required). Using one of the available browsers, type skyclock.local or, if you prefer, the direct IP address: 192.168.4.1. You will get the following configuration interface:
 

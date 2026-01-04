@@ -371,6 +371,14 @@ This software requires the [ESP8266Audio](https://github.com/earlephilhower/ESP8
 
 This entire project is released under the GPL license and its use and construction are at your own risk. If you find bugs, please report them via the GitHub issue tracker or send me an email
 
+## 💖 Support the Project
+
+This project is developed and maintained in my free time and is completely free and open source. Development involves costs for hardware, testing, and hosting. If you find it useful and want to support its continued development, consider buying me a coffee!
+
+[![PayPal](https://img.shields.io/badge/PayPal-Support-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.com/donate/?hosted_button_id=W5KDUDK8AZXWY)
+
+Every contribution is greatly appreciated and helps cover development costs and allows me to dedicate more time to this and other IoT projects. Thank you! ☕
+
 Giuseppe Leotta
 
 g.leotta63@hotmail.com
